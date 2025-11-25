@@ -71,7 +71,7 @@ def get_llm():
     return ChatOpenAI(
         model="gpt-4o-mini", 
         temperature=0.8,
-        max_tokens=20000,
+        max_tokens=16384,
         api_key=api_key
     )
 
